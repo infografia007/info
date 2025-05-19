@@ -1,0 +1,126 @@
+body {
+    
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Afetar dois elementos HTML com as mesmas instruções em CSS*/
+h1, h2 {
+    text-align: center; /* Alinhar o texto */
+    text-transform: uppercase;  /* Transformar o texto para maiúsculas  */
+    color: #FF186D; /* Alterar cor do texto */
+}
+
+h1 {
+    font-size: 36px; /* Dimensão do tipo de letra */
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+a {
+    color:#FF186D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+nav {
+    text-transform: uppercase;
+    margin-top: 30px; /* margem ao topo */
+}
+
+.animal {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 40px; /* margem ao baixo */
+}
+
+/* Afetar todos os elementos contidos em classes "dog-adoption" */
+.dog-adoption {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* Afetar todas as imagens contidas em classes "dog-adoption" */
+.dog-adoption img {
+    margin-bottom: 20px;
+}
+
+.dog-adoption ul,
+.dog-adoption h3 {
+    text-align: left;
+    padding-left: 0px;
+}
+
+/* Afetar todos os elementos LI, contidos em classes "dog-adoption" */
+.dog-adoption li {
+    list-style: none; /* remover os estilos das listas (remover BulletPoints) */
+}
+
+.redesociais {
+    background-color: #FF186D;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.redesociais a {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.redesociais a:hover {
+    color: black;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.rodape a {
+    color: white;
+}
+.rodape a:hover {
+    color: #FF186D;
+}
+
+h1, h2 {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.article h1,
+.contact h1 {
+margin: 40px 0 20px;
+}
+
+.pagination  .page-link {
+    color: #FF186D;
+}
+
+.perfil li b {
+    color: #FF186D;
+}
+.perfil li {
+    padding-bottom: 4px;
+}
+
+.video-dog {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
